@@ -1,0 +1,148 @@
+/* 
+Theme Name: ODISSI
+Description: ODISSI
+Author: Andrianina RABARIVELO
+Version: 1.0.1
+Text Domain: odissi
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: From scratch responsive theme
+*/
+
+html{
+    margin-top: 0 !important;
+}
+
+    @font-face {
+        font-family: "Graphik Black";
+        src: url("/fonts/Graphik-Black.woff2") format("woff2"),
+            url("/fonts/Graphik-Black.woff") format("woff"),
+            url("/fonts/Graphik-Black.eot") format("eot"),
+            url("/fonts/Graphik-Black.ttf") format("ttf");
+    }
+
+    @font-face {
+    font-family: "Graphik Regular";
+    src: url("/fonts/Graphik-Regular.woff2") format("woff2"),
+          url("/fonts/Graphik-Regular.woff") format("woff"),
+          url("/fonts/Graphik-Black.eot") format("eot"),
+          url("/fonts/Graphik-Black.ttf") format("ttf");
+
+  }
+
+
+  *, p {
+      font-family: 'Graphik Regular';
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Graphik Regular';
+    font-weight: 900;
+  }
+
+  .homepage{
+    padding: 250px 0px !important;
+    background-position: center;
+    margin-top: -120px;
+  }
+
+  .homepage h1,   .homepage p{
+    color: white;
+  }
+
+  .btn-primary{
+    border-radius: 50px !important;
+  }
+
+  .my-5{
+      margin-top: 0px !important;
+  }
+
+  .social .bi{
+      margin: 0 10px;
+      font-size: 30px;
+      color: white;
+  }
+
+
+  /* navigation */
+
+  ul.nav li{
+    margin: 0 20px;
+  }
+
+  ul.nav li a{
+    font-weight: 900;
+    font-family: "Graphik Regular";
+    color: white;
+  }
+
+  .logo img{
+    width: 150px;
+    max-width: none;
+  }
+
+
+  /* border-diagonal */
+
+  .border-diagonal{
+      display: flex;
+      margin-top: -90px;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    fill: white;
+  }
+
+  .first svg{
+    transform: scale(-1, 1);
+    display: block;
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    fill: white;
+  }
+
+  /* album */
+
+.album{
+    margin-top: 70px;
+}
+
+  /* section 2  */
+
+  #hanging-icons{
+      text-align: center;
+  }
+  #hanging-icons svg{
+    display: none;
+}
+#hanging-icons i{
+    font-size: 3em;
+}
+
+
+/* video */
+iframe{
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #d0d0d0;
+}
+
+
+/* footer */
+
+.footer{
+    margin: 0 !important;
+    max-width: 100% !important;
+    padding: 0 15% !important;
+    background-color: #252B43;
+    color: white;
+}
+
+.footer .social{
+    display: flex;
+}
