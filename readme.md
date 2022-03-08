@@ -9,3 +9,8 @@ pass BDD : ''
 
 user WP : admin
 pass WP : admin
+
+Wamp server 3.2.3
+-----------------
+PHP 7.4.9
+MySQL 5.7.31
